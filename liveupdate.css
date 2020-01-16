@@ -1,0 +1,39 @@
+body{
+    margin : 0px;
+}
+
+
+.main{
+    width:100%;
+    height:100%;
+    background-image:url("live.jpg") ;
+    background-size: cover;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium';
+    color: steelblue;
+}
+.dropbox{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+    background-color: slategrey;
+    color: white;
+    font-size: 19px;
+}
+.button{
+    background-color: slategrey;
+    padding: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 19px;
+    margin:10px;
+}
+.button:hover{
+    background:skyblue;
+}
+.textbox{
+    border-radius: 10px;
+    border: 5px solid brown;
+    padding:10px;
+    margin:5px;
+}
