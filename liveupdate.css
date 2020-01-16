@@ -5,8 +5,8 @@ body{
 
 .main{
     width:100%;
-    height:100%;
-    background-image:url("live.jpg") ;
+    height:120%;
+    background-color:palegoldenrod ;
     background-size: cover;
     font-size: 27px;
     font-family: 'Franklin Gothic Medium';
@@ -16,6 +16,7 @@ body{
     border-radius: 20px;
     padding: 20px;
     margin: 5px;
+    margin-right: 10px;
     background-color: slategrey;
     color: white;
     font-size: 19px;
