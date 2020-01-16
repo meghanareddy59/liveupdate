@@ -7,18 +7,16 @@ document.body.appendChild(liveupdateContainer);
 //matchnumber
 
 var matchno=document.createElement('p');
-matchno.textContent="Match no:";
+matchno.textContent="Match ID:";
 
 
 var matchnobox = document.createElement('input');
 matchnobox.setAttribute('type','text');
-var  ButtonM = document.createElement('input');
-ButtonM.setAttribute('type','submit');
-ButtonM.setAttribute('value','submit');
+
 
 liveupdateContainer.appendChild(matchno);
 matchno.appendChild(matchnobox);
-matchnobox.appendChild(ButtonM);
+
 
 //select teams
 
